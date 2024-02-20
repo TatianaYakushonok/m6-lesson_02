@@ -7,5 +7,5 @@ document.body.append(input, paragraf);
 input.addEventListener('change', () => {
   setTimeout(() => {
     paragraf.textContent = input.value;
-  }, 3000);
+  }, 300);
 });

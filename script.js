@@ -4,7 +4,7 @@ const paragraf = document.createElement('p');
 
 document.body.append(input, paragraf);
 
-input.addEventListener('change', () => {
+input.addEventListener('input', () => {
   setTimeout(() => {
     paragraf.textContent = input.value;
   }, 300);
